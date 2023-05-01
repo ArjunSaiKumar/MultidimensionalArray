@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrayLibrary", "MultidimensionalArrayLibrary\MultidimensionalArrayLibrary.csproj", "{DF2DDB62-B0D0-4B81-A1E1-95FAD0C6F011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrayTest", "MultidimensionalArrayTest\MultidimensionalArrayTest.csproj", "{AEE7DACA-0072-4AE9-AC9A-3471DF550E5C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF2DDB62-B0D0-4B81-A1E1-95FAD0C6F011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2DDB62-B0D0-4B81-A1E1-95FAD0C6F011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2DDB62-B0D0-4B81-A1E1-95FAD0C6F011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2DDB62-B0D0-4B81-A1E1-95FAD0C6F011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE7DACA-0072-4AE9-AC9A-3471DF550E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE7DACA-0072-4AE9-AC9A-3471DF550E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE7DACA-0072-4AE9-AC9A-3471DF550E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE7DACA-0072-4AE9-AC9A-3471DF550E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
