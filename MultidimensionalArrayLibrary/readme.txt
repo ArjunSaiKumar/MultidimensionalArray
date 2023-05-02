@@ -20,6 +20,3 @@
           - other BLASes (OpenBLAS, vendor-specific) can be selected by configuration option
         - CUDA GPU: all operations performed locally on GPU and cuBLAS used for matrix operations
 
-      Requirements: 
-        - Linux, MacOS or Windows on x64
-        - Linux requires libgomp.so.1 installed.
