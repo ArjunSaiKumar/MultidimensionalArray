@@ -4,7 +4,29 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<VersionPrefix>0.0.1</VersionPrefix>
+	<Authors>Dadinaboiana Sai Kumar</Authors>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/ArjunSaiKumar/MultidimensionalArray/tree/master</RepositoryUrl>
+    <Description>This package or code works for operation of 2D arrray</Description>
+    <PackageProjectUrl>https://github.com/ArjunSaiKumar/MultidimensionalArray</PackageProjectUrl>
+    <PackageIcon>49063551A.jpg</PackageIcon>
+    <PackageTags>Array Operations :  NDarray, array,multidimensional</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="readme.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="49063551A.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+	  <Content Include="readme.txt">
+		  <Pack>true</Pack>
+		  <PackagePath>\</PackagePath>
+	  </Content>
+  </ItemGroup>
 
 </Project>
